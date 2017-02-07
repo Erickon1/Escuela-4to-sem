@@ -1,0 +1,91 @@
+Valor de verdad de una preposicion
+
+Los valores de verdad de una preposicion son 
+Verdadero = V
+falso = F
+
+y se les puede representar de la siguiente manera:
+p=	Mexico es un pais de sudamerica		V(p)=F
+q=	La naranja es un mineral		V(q)=F
+r=	La ballena es un mamifero		V(r)=V
+s=	2x +1 =3				v(s)=no es proposicion
+
+
+Conectivos logicos
+
+Tambien llamados operadores logicos de la logica proposicional
+sean p,q dos proposiciones cualesquiera
+
+Negacion
+Simbolo: ~ ¬
+Representacion: ~p ó ¬p
+Lectura: 	No p, es falso que p
+		No es verdad que p
+		No es cierto que p
+Ejemplo:	p= Carlos juega futbol
+		~p= Carlos no juega futbol
+		~p= No es cierto que carlos juega futbol
+
+
+
+Conjuncion (AND)
+Simbolo	 	^
+Representacion 	p^q
+Lectura		pyq, p pero q, p sin embargo q, p a pesar que q
+Ejemplo		P= el año tiene 52 semanas
+		q= la semana tiene 7 dias
+		p^q el año tiene 52 semanas y la semana tiene 7 dias
+
+
+Disyuncion inclusiva (OR)
+Simbolo		V
+Representacion	pVq
+Lectura		póq, al menos p ó q
+Ejemplo		p= el año tiene 12 meses
+		q= los meses tienen 30 dias
+		pVq el año tiene 12 meses o los meses tienen 30 dias
+
+
+Condicional
+Simbolo		--->
+Representacion	p-->q
+		|    |
+     antecedente     consecuente
+
+Lectura		Si p entonces q
+		si p tambien q
+Ejemplo		p=el año tiene 12 meses
+		q= el semestre tiene 6 meses
+		p-->q Si el año tiene 12 meses entonces ek semestre tiene 6 meses
+
+		p-->q != q-->p
+		q-->p
+
+Bicondicional
+Simbolo		<--->
+Representacion	p<-->q
+Lectura		p si y solo si q
+Ejemplo		p= el año tiene 52 semanas y un dia
+		q= la semana tiene 7 dias
+		p<-->q
+		El año tiene 52 semanas y un dia si y solo si la semana tiene 7 dias
+
+
+Disyuncion Exclusiva
+Simbolo		_V_
+Representacion	p_V_q
+Lectura		óp óq, póq pero no ambos
+Ejemplo		p= el año tiene 12 meses
+		q= la luna es de queso
+		p_V_q
+		o el año tiene 12 meses o la luna es de queso
+
+
+
+
+SIMBOLOS DE SEPARACION Y PUNTUACION PARA EVITAR AMBIGUEDAD
+() , [] , {}
+[{()}]
+posibilidad de que algo pueda entenderse de varios modos o de que admita distintas interpretaciones. se da cuando una palabra, sintacma u oracion es susceptible de dos o mas significados o interpretaciones
+
+

@@ -1,0 +1,52 @@
+Estructuras Discretas 
+-20 min Teoria
+-Definiciones (entender)
+	La lógica es una ciencia de las leyes necesarias del pensamiento sin la cual no se comprende ni se razona >>Kant 1785
+-Definicion de Lógica
+	Es el estudio del razonamiento; se refiere especificamente a si el razonamiento es correcto.
+-Definicion (enunciado).
+	Un enunciado (o proposicion) es una frase que es verdadera o falsa pero no ambas
+Ejemplo:
+>>	2+2=4 (necesitas saber el contexto)
+>>	Seria ilegal que una persona tenga mas de tres perros y 3 gatos en su propiedad dentro de la ciudad 
+Si nosotros ocupamos p,q, r, etc para representar las proposiciones podemos hacer lo sig:
+
+p: 1+1=2
+Proposiciones Compuestas
+
+1.- conjuncion
+	Sean p y q dos proposiciones, la conjuncion de p y q la denotamos por p^q es decir p y q
+2.- Disyuncion
+	Sean p y q proposiciones, la disyuncion de p y q la denotamos por pVq es decir p o q
+	-Definicion 
+		Un operador binario sobre un conjunto "x", asigna a cada par de elementos en X un elemento de x
+3.- Negacion
+	La negacion de p la enotamos por -p, ¬p, ~p, p' 
+	-Definicion
+		Un operador unario sobre un conjunto X asigna cada elemento de X un elemento de x 
+
+Ejemplo:
+>>	p: Esta lloviendo 
+	q: Hace frio
+	Conjuncion
+		p^q
+	Disyuncion
+		pVq
+
+TABLAS DE VERDAD	
+Podemos ocupar una tabla de verdad para determinar la veracidad de p y q. una tabla de verdad es una proposicion P formada por las proposiciones individuales p1, p2, p3... pn, donde se enumera TODAS LAS POSIBLES COMBINACIONES DE LOS VALORES DE VERDAD PARA p1, p2, p3... pn. Donde V denota como verdadero y F como falso
+
+	p	q	p^q	pVq
+
+	f	f	f	f
+	f	v	f	v
+	v	f	f	v
+	v	v	v	v
+
+p: una decada tiene 10 años
+q: un milenio tiene 100 años
+
+	p	q	p^q	pVq
+	
+	v	f	f	v	
+

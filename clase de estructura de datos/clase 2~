@@ -1,0 +1,44 @@
+
+package fes.aragon.inicio
+
+public class Arreglo{
+	private int[] arreglo;
+	
+	public Arreglo(){//constructor
+		arreglo = new int [30];//si no se indica el valor del arreglo, su default sera 30
+		for (int i=0; i<arreglo.length ; i++){
+			arreglo[i]= i+1;
+		}	
+	}
+	public Arreglo (int dato){
+		arreglo = new int [dato];
+		for(int i=0; i<arreglo.length; i++){
+			arreglo[i]=i+1;
+		}	
+	}
+	public int[] getArreglo(){
+		return arreglo;
+	}
+
+
+}
+----------------------------------------------------------------------
+package fes.aragon.inicio
+public class Inicio{
+	public static void main (String[] args){
+		Arreglo obj=new Arreglo();
+		Arreglo obj2=new Arreglo(10);
+		for (int i=0; i<obj.getArreglo().length; i++){
+			System.out.println("Dato: "+i+obj.getArreglo()[i] );
+		}
+	}
+
+}
+
+modificar el programa para que los valores de los arreglos de los objetos se reasignen a si mismos multiplicandolos por 3
+
+la variable obj2 hacer lo mismo que el punto 1 pero ahora por 10 y sacar el resultado en pantalla 
+
+leer de deitel los cap sig: 3-6
+
+
